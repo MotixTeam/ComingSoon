@@ -1,0 +1,69 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: -20px;
+  height: auto;
+  width: 40%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.soon {
+  margin-top: -3%;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+hr {
+  width: 27%;
+  color: white;
+  margin-top: 2%;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    p {
+      font-size: 3vw;
+    }
+
+    .App-logo {
+      margin-bottom: -15px;
+      margin-top: -20px;
+      width: 100%;
+    }
+
+    .soon {
+      margin-top: -1%;
+    }
+
+    hr {
+      width: 70%
+    }
+}
