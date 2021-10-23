@@ -4,9 +4,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="stars"></div>
-      <div className="stars2"></div>
-      <div className="stars3"></div>
       <div className="App">
         <header className="App-header">
           <hr className="line"></hr>
